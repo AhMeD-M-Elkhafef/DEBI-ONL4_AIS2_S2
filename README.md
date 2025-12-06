@@ -10,3 +10,20 @@ Machine Learning.
 ## Getting Started 
 To get started with this project, clone the repository and 
 navigate to the `python-for-ml` folder.
+
+
+# python-for-ml
+
+This project contains Python scripts for basic machine learning workflows, including data preprocessing and model training/evaluation.
+
+## 1. preprocessing.py
+This script handles data preprocessing steps:
+- Filling missing numerical values
+- Label encoding for categorical columns
+- Feature scaling using StandardScaler
+
+## 2. ml.py
+This script provides machine learning utilities:
+- Splitting the dataset into training and testing sets
+- Training a Logistic Regression model
+- Evaluating the model using accuracy and a classification report
